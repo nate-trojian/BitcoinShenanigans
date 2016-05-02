@@ -1,0 +1,13 @@
+{
+"variables": ["a", "b", "c", "d", "e", "f", "g", "h", "temp1", "temp2", "s0", "s1", "ch", "maj", "w", "k"],
+"rules": [{"rule":"temp1_i_ = h_i-1_ + s1_i-1_ + ch_i-1_ + k_i-1_ + w_i-1_", "cond":"i>=1"},
+{"rule":"temp2_i_ = s0_i-1_ + maj_i-1_", "cond":"i>=1"},
+{"rule":"h_i_ = g_i-1_", "cond":"i>=1"},
+{"rule":"g_i_ = f_i-1_", "cond":"i>=1"},
+{"rule":"f_i_ = e_i-1_", "cond":"i>=1"},
+{"rule":"e_i_ = d_i-1_ + temp1_i-1_", "cond":"i>=1"},
+{"rule":"d_i_ = c_i-1_", "cond":"i>=1"},
+{"rule":"c_i_ = b_i-1_", "cond":"i>=1"},
+{"rule":"b_i_ = a_i-1_", "cond":"i>=1"},
+{"rule":"a_i_ = temp1_i-1_ + temp2_i-1_", "cond":"i>=1"}]
+}
